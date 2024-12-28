@@ -1,0 +1,30 @@
+function attendance()
+ {
+    return new Promise((resolve, reject)=>{                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
+        setTimeout(()=>{
+          let attend=true
+          if(attend){
+            resolve("100% attendance");
+          }
+          else
+          {
+              reject("not present");
+          }
+          
+        },2000);
+      })
+      
+ }
+ 
+ async function d()
+ {
+    try{
+        let a= await attendance();
+        console.log (a);
+    }
+    catch(error) 
+    {
+        console.error(error)
+    }
+ }
+ d()

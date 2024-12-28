@@ -1,0 +1,18 @@
+ let sub = (a,b) =>{
+    console .log(a-b)
+ }
+ sub(3,4);
+
+
+
+
+
+ let add = (a,b) =>{
+    return a+b;
+ }
+ console. log(add(20,7));
+
+
+
+
+

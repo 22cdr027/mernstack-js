@@ -1,0 +1,12 @@
+let a = {
+    name:"hari",
+    age:20,
+    address:"gandhi nagar",
+    district:"sivaganga",
+};
+let {name,age}=a
+console.log(name);
+let a{
+    name:"hh"
+    age=45
+}

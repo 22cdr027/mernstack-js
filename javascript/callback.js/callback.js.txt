@@ -1,0 +1,43 @@
+function dog(cat)
+   {
+    setTimeout(()=>{
+        console.log("jack is daog");
+        cat();
+    },2000);
+   }
+   function cat()
+   {
+    console.log("rose");
+   }
+   dog (cat)
+
+
+
+
+ 
+
+   function attendance(lunch)
+   {
+    setTimeout(()=>{
+        console.log("100% attendance");
+        lunch();
+    },2000);
+
+   }
+   function lunch(gohome)
+   {
+    setTimeout(()=>{
+        console.log("have ur Lunch")
+        gohome();
+
+    },5000);
+   }
+   function gohome()
+   {
+    console. log("Day is completed");
+   }
+   attendance(()=>{
+    lunch(()=>{
+        gohome()
+    });
+});

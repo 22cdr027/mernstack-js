@@ -1,0 +1,19 @@
+ function attendance(){
+ return new Promise((resolve, reject)=>{                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
+  setTimeout(()=>{
+    let attend=false
+    if(attend){
+      resolve("100% attendance");
+    }
+    else
+    {
+        reject("not present");
+    }
+    
+  },2000);
+
+ 
+})
+ }
+ attendance().then(op=>console.log(op))
+ .catch(op=>console.error(op));
